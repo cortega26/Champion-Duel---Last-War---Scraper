@@ -1,0 +1,83 @@
+{
+  "window_title_regex": "Last War",
+  "tesseract_exe": "C:\\\\Program Files\\\\Tesseract-OCR\\\\tesseract.exe",
+  "groups": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P"
+  ],
+  "expected_total_rows": 10,
+  "sleep_after_click": 0.25,
+  "sleep_after_group_change": 0.55,
+  "sleep_after_scroll": 0.4,
+  "threshold": 180,
+  "ocr_psm": 6,
+  "debug": false,
+  "regexes": [
+    "^\\s*(?P<rank>\\d+)\\s*\\[(?P<alliance>[^\\]]+)\\]\\s*(?P<player>.+?)\\s*Warzone\\s*#(?P<warzone>\\d+)\\D*(?P<kill_score>\\d[\\d,]*)",
+    "^\\s*(?P<rank>\\d+)\\s*\\[(?P<alliance>[^\\]]+)\\]\\s*(?P<player>.+?)\\s*(?P<kill_score>\\d[\\d,]*)\\s*Warzone\\s*#(?P<warzone>\\d+)"
+  ],
+  "ui": {
+    "group_button": [
+      1444,
+      1293
+    ],
+    "dropdown_sample_point": [
+      1323,
+      828
+    ],
+    "board_tl": [
+      947,
+      221
+    ],
+    "board_br": [
+      1662,
+      1240
+    ],
+    "drag_from": [
+      1309,
+      1039
+    ],
+    "drag_to": [
+      1309,
+      839
+    ],
+    "drag_repeats_max": 10,
+    "dropdown_capture_w": 600,
+    "dropdown_capture_h": 800,
+    "dropdown_tl": [
+      1121,
+      522
+    ],
+    "dropdown_br": [
+      1484,
+      1255
+    ],
+    "scroll_point": [
+      0,
+      0
+    ],
+    "scroll_top_ticks": 6,
+    "scroll_bottom_ticks": -3,
+    "drag_repeats_bottom": 2
+  },
+  "lang": "eng",
+  "rows_per_screen": 7,
+  "scroll_method": "drag",
+  "extra_wait_after_group": 0.6,
+  "scroll_top_repeats": 3,
+  "scroll_bottom_repeats": 3
+}

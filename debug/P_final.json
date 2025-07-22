@@ -1,0 +1,34 @@
+[
+  {
+    "alliance": "V10",
+    "player": "Fighter",
+    "warzone": 6269,
+    "kill_score": 6269,
+    "group": "P",
+    "rank": 1
+  },
+  {
+    "alliance": "A1OW",
+    "player": "Whiskey #",
+    "warzone": 1312,
+    "kill_score": 50,
+    "group": "P",
+    "rank": 2
+  },
+  {
+    "alliance": "NHI",
+    "player": "Tiger",
+    "warzone": 1307,
+    "kill_score": 1307,
+    "group": "P",
+    "rank": 3
+  },
+  {
+    "alliance": "B3ar",
+    "player": "WickaaG",
+    "warzone": 1308,
+    "kill_score": 1308,
+    "group": "P",
+    "rank": 4
+  }
+]

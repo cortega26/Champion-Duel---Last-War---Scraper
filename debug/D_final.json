@@ -1,0 +1,42 @@
+[
+  {
+    "alliance": "sham",
+    "player": "00 [A10W]Vanquish",
+    "warzone": 1303,
+    "kill_score": 0,
+    "group": "D",
+    "rank": 1
+  },
+  {
+    "alliance": "aREs",
+    "player": "DeepShark",
+    "warzone": 1304,
+    "kill_score": 1304,
+    "group": "D",
+    "rank": 2
+  },
+  {
+    "alliance": "2o0",
+    "player": "= #",
+    "warzone": 1301,
+    "kill_score": 1301,
+    "group": "D",
+    "rank": 3
+  },
+  {
+    "alliance": "XINN",
+    "player": "St #",
+    "warzone": 1311,
+    "kill_score": 1311,
+    "group": "D",
+    "rank": 4
+  },
+  {
+    "alliance": "VNae",
+    "player": "Heoxinhdep",
+    "warzone": 1314,
+    "kill_score": 1314,
+    "group": "D",
+    "rank": 5
+  }
+]
