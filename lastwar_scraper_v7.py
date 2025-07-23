@@ -59,7 +59,9 @@ CONFIG_FILE = "config.json"
 DEFAULT_CONFIG = {
     "window_title_regex": "Last War",
     "tesseract_exe": "",
-    "lang": "eng",                   # e.g. "eng+kor" if needed
+    # enable Asian languages by default; ensure you have the
+    # corresponding Tesseract language data installed
+    "lang": "eng+jpn+kor+chi_sim",
     "groups": [chr(ord('A')+i) for i in range(16)],  # A..P
     "sleep_after_click": 0.35,
     "sleep_after_group_change": 0.9,
@@ -139,6 +141,9 @@ def grab(region: Tuple[int, int, int, int]) -> Image.Image:
 def preprocess(img: Image.Image, thr: int) -> Image.Image:
     gray = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2GRAY)
     _, th = cv2.threshold(gray, thr, 255, cv2.THRESH_BINARY)
+    # small morphological closing helps connect broken glyphs
+    kernel = np.ones((2, 2), np.uint8)
+    th = cv2.morphologyEx(th, cv2.MORPH_CLOSE, kernel)
     return Image.fromarray(th)
 
 
@@ -146,7 +151,11 @@ def ocr_tsv(img: Image.Image, psm: int, lang: str, exe: str) -> pd.DataFrame:
     if exe:
         pytesseract.pytesseract.tesseract_cmd = exe
     df = pytesseract.image_to_data(
-        img, config=f"--psm {psm}", lang=lang, output_type=Output.DATAFRAME)
+        img,
+        config=f"--oem 3 --psm {psm}",
+        lang=lang,
+        output_type=Output.DATAFRAME,
+    )
     df = df[df.conf != -1].fillna("")
     return df
 
