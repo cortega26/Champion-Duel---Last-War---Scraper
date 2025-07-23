@@ -2,7 +2,8 @@
 """
 lastwar_scraper_v7.py
 ---------------------
-Fix scroll drift with image-diff probes, keep failsafe, OCR dropdown, robust parsing.
+Automate grabbing the Top 10 players for Groups A–P from "Last War: Survival" (Windows client),
+OCR the text, and save everything to an Excel file.
 
 Usage:
   python lastwar_scraper_v7.py --calibrate
@@ -15,7 +16,7 @@ import time
 import json
 import re
 import signal
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Optional
 
 import mss
 import numpy as np
@@ -350,8 +351,31 @@ def df_to_clusters(df: pd.DataFrame) -> List[pd.DataFrame]:
     return clusters
 
 
-def parse_row_tokens(tokens: List[str]) -> Dict:
+def parse_row_tokens(tokens: List[str], regexes: List[str] = None) -> Optional[Dict]:
+    """Parse OCR tokens for a single leaderboard row.
+
+    The function first tries user supplied regular expressions (from the
+    configuration) and falls back to heuristic parsing when no regex matches.
+    """
     text = " ".join(tokens)
+    if regexes:
+        for rx in regexes:
+            m = re.search(rx, text, re.I)
+            if m:
+                d = m.groupdict()
+                try:
+                    d["kill_score"] = int(d["kill_score"].replace(",", ""))
+                    d["warzone"] = int(d["warzone"])
+                except Exception:
+                    continue
+                d["player"] = d.get("player", "").strip(" -|:;\"',.")
+                d["alliance"] = d.get("alliance", "").strip()
+                return {
+                    "alliance": d.get("alliance", ""),
+                    "player": d.get("player", ""),
+                    "warzone": d.get("warzone"),
+                    "kill_score": d.get("kill_score"),
+                }
     if "Group " in text:
         return None
     if "[" not in text or "]" not in text:
@@ -421,7 +445,7 @@ def scrape_group(cfg: Dict, gname: str) -> List[Dict]:
         for c in clusters:
             c_sorted = c.sort_values("left")
             tokens = [t for t in c_sorted.text.tolist() if t]
-            rec = parse_row_tokens(tokens)
+            rec = parse_row_tokens(tokens, cfg.get("regexes"))
             if rec:
                 rows_out.append(rec)
 

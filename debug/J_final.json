@@ -1,19 +1,27 @@
 [
   {
     "alliance": "SOF",
-    "player": "Neul Warzone eul #",
+    "player": "Neul Warzone eu! #",
     "warzone": 1306,
     "kill_score": 1674,
     "group": "J",
     "rank": 1
   },
   {
+    "alliance": "AC1D",
+    "player": "H1ccUP #",
+    "warzone": 1309,
+    "kill_score": 1309,
+    "group": "J",
+    "rank": 2
+  },
+  {
     "alliance": "GLOR",
     "player": "SpeEdyGonZales",
     "warzone": 1302,
-    "kill_score": 1302,
+    "kill_score": 39,
     "group": "J",
-    "rank": 2
+    "rank": 3
   },
   {
     "alliance": "TQOAK",
@@ -21,22 +29,46 @@
     "warzone": 1301,
     "kill_score": 1301,
     "group": "J",
-    "rank": 3
-  },
-  {
-    "alliance": "GLOR",
-    "player": "SpeEdyGonZaLes__",
-    "warzone": 1302,
-    "kill_score": 1302,
-    "group": "J",
     "rank": 4
   },
   {
+    "alliance": "KORa",
+    "player": "Let",
+    "warzone": 1312,
+    "kill_score": 1312,
+    "group": "J",
+    "rank": 5
+  },
+  {
+    "alliance": "Fenx",
+    "player": "3",
+    "warzone": 3,
+    "kill_score": 119,
+    "group": "J",
+    "rank": 6
+  },
+  {
+    "alliance": "TOAK",
+    "player": "FakeYeyee",
+    "warzone": 1301,
+    "kill_score": 1301,
+    "group": "J",
+    "rank": 7
+  },
+  {
     "alliance": "FEnx",
-    "player": "s wareone 3S #",
+    "player": "Warzone B50] #",
     "warzone": 1315,
     "kill_score": 119,
     "group": "J",
-    "rank": 5
+    "rank": 8
+  },
+  {
+    "alliance": "XINN",
+    "player": "SASEREMoonlint.. #",
+    "warzone": 1311,
+    "kill_score": 1311,
+    "group": "J",
+    "rank": 9
   }
 ]

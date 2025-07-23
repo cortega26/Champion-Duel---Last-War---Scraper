@@ -1,18 +1,26 @@
 [
   {
-    "alliance": "aREs",
-    "player": "DeepShark",
-    "warzone": 1304,
-    "kill_score": 1304,
+    "alliance": "XINN",
+    "player": "Glory24",
+    "warzone": 1311,
+    "kill_score": 1311,
     "group": "D",
     "rank": 1
   },
   {
-    "alliance": "SARS",
-    "player": "AgoNyTR [FEnx]Wilhelm",
-    "warzone": 1315,
-    "kill_score": 1302,
+    "alliance": "aREs",
+    "player": "DeepShark Warzone - #",
+    "warzone": 1304,
+    "kill_score": 1304,
     "group": "D",
     "rank": 2
+  },
+  {
+    "alliance": "FEnx",
+    "player": "Wilhelm #",
+    "warzone": 1315,
+    "kill_score": 1315,
+    "group": "D",
+    "rank": 3
   }
 ]

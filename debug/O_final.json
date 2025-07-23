@@ -1,34 +1,50 @@
 [
   {
+    "alliance": "XTRM",
+    "player": "splinter1 Commander",
+    "warzone": 1308,
+    "kill_score": 1308,
+    "group": "O",
+    "rank": 1
+  },
+  {
+    "alliance": "ITQAK",
+    "player": "Warzone aR #",
+    "warzone": 1301,
+    "kill_score": 1301,
+    "group": "O",
+    "rank": 2
+  },
+  {
     "alliance": "vic",
     "player": "41=- Warzone wanes #",
     "warzone": 1309,
     "kill_score": 1309,
     "group": "O",
-    "rank": 1
-  },
-  {
-    "alliance": "GLOW",
-    "player": "Glow [XINN]Fresh Warzone Warzone [7ARQ]I XINN]Fres! #",
-    "warzone": 1313,
-    "kill_score": 23,
-    "group": "O",
-    "rank": 2
-  },
-  {
-    "alliance": "XINN",
-    "player": "Fresh",
-    "warzone": 1311,
-    "kill_score": 1311,
-    "group": "O",
     "rank": 3
   },
   {
-    "alliance": "DFTL",
-    "player": "Hagao jagao #",
-    "warzone": 1301,
-    "kill_score": 1301,
+    "alliance": "GLOW",
+    "player": "Glow Warzone [7ARQ]I",
+    "warzone": 1313,
+    "kill_score": 1306,
     "group": "O",
     "rank": 4
+  },
+  {
+    "alliance": "XINN",
+    "player": "Fresh XINN]Fres! #",
+    "warzone": 1311,
+    "kill_score": 23,
+    "group": "O",
+    "rank": 5
+  },
+  {
+    "alliance": "GLOW)",
+    "player": "Glow INN] Fresh #",
+    "warzone": 1309,
+    "kill_score": 1306,
+    "group": "O",
+    "rank": 6
   }
 ]

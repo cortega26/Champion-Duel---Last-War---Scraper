@@ -3,24 +3,40 @@
     "alliance": "FEnx",
     "player": "BombBabyBomb",
     "warzone": 1315,
-    "kill_score": 1315,
+    "kill_score": 16,
     "group": "K",
     "rank": 1
   },
   {
-    "alliance": "EVMU",
-    "player": "#23E® [NHIJLinh Warzone Warzone (euMulseil #",
+    "alliance": "NHIJLinh [EVMU",
+    "player": "#21E® (euMulseil #",
     "warzone": 1307,
-    "kill_score": 1314,
+    "kill_score": 25,
     "group": "K",
     "rank": 2
   },
   {
+    "alliance": "NHI",
+    "player": "Linh [EUMU]ZEO #",
+    "warzone": 1307,
+    "kill_score": 1314,
+    "group": "K",
+    "rank": 3
+  },
+  {
+    "alliance": "CG9",
+    "player": "2415",
+    "warzone": 1305,
+    "kill_score": 1305,
+    "group": "K",
+    "rank": 4
+  },
+  {
     "alliance": "DKBs",
-    "player": "neko Warzone s]neko #",
+    "player": "neko Warzone s]neka #",
     "warzone": 1303,
     "kill_score": 1303,
     "group": "K",
-    "rank": 3
+    "rank": 5
   }
 ]

@@ -1,23 +1,23 @@
 [
   {
     "alliance": "VO1N",
-    "player": "radikove Warzone Warzone Warzone [TQAKITRY: BH #",
+    "player": "radikove Warzone EE Moneneasoe #",
     "warzone": 1305,
-    "kill_score": 1308,
+    "kill_score": 1305,
     "group": "B",
     "rank": 1
   },
   {
     "alliance": "HxC",
-    "player": "De Warzone MC]De #",
-    "warzone": 1309,
-    "kill_score": 1309,
+    "player": "De",
+    "warzone": 1303,
+    "kill_score": 1303,
     "group": "B",
     "rank": 2
   },
   {
     "alliance": "Smrf",
-    "player": "Smurf Warzone mrf]Smurf #",
+    "player": "Smurf #",
     "warzone": 1313,
     "kill_score": 1313,
     "group": "B",
@@ -30,13 +30,5 @@
     "kill_score": 1313,
     "group": "B",
     "rank": 4
-  },
-  {
-    "alliance": "SOF",
-    "player": "Hodumaru #",
-    "warzone": 1306,
-    "kill_score": 1306,
-    "group": "B",
-    "rank": 5
   }
 ]
