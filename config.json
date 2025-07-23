@@ -22,7 +22,7 @@
   "expected_total_rows": 10,
   "sleep_after_click": 0.25,
   "sleep_after_group_change": 0.55,
-  "sleep_after_scroll": 0.4,
+  "sleep_after_scroll": 0.5,
   "threshold": 180,
   "ocr_psm": 6,
   "debug": false,
