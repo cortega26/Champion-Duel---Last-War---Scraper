@@ -1,66 +1,58 @@
 [
   {
     "alliance": "Msz",
-    "player": "Warzone AA #",
+    "player": "Warzone marten #",
     "warzone": 1303,
     "kill_score": 1303,
     "group": "C",
     "rank": 1
   },
   {
-    "alliance": "arcsjLadyp Warzone [ENDL",
-    "player": "Lanhula Warzone a@REs]LadyDragus #",
-    "warzone": 1305,
-    "kill_score": 1304,
+    "alliance": "NHI",
+    "player": "}nobita45 Warzone nobi #",
+    "warzone": 1307,
+    "kill_score": 1307,
     "group": "C",
     "rank": 2
   },
   {
-    "alliance": "FIND",
-    "player": "Warzone APA #",
-    "warzone": 1303,
-    "kill_score": 1303,
+    "alliance": "aResjLadyD Warzone aREs",
+    "player": "LadyDragus #",
+    "warzone": 1304,
+    "kill_score": 1304,
     "group": "C",
     "rank": 3
   },
   {
-    "alliance": "MIE",
-    "player": "oXaue Warzone QAK]Caesar Advance . #",
-    "warzone": 1301,
-    "kill_score": 1301,
+    "alliance": "ENDL",
+    "player": "Lanhula #",
+    "warzone": 1305,
+    "kill_score": 1305,
     "group": "C",
     "rank": 4
   },
   {
-    "alliance": "VIE}oxd E",
-    "player": "JmXaum #",
+    "alliance": "FIND",
+    "player": "Warzone QAK]Caesar oak ABA #",
     "warzone": 1301,
-    "kill_score": 1301,
+    "kill_score": 1303,
     "group": "C",
     "rank": 5
   },
   {
-    "alliance": "vig Ol",
-    "player": "#",
-    "warzone": 1309,
-    "kill_score": 20,
+    "alliance": "ENDL",
+    "player": "Lanhula Warzone [aREs]LadyDragus Tass",
+    "warzone": 1304,
+    "kill_score": 1303,
     "group": "C",
     "rank": 6
   },
   {
-    "alliance": "V10",
-    "player": "ReaksioN",
-    "warzone": 1308,
-    "kill_score": 1308,
+    "alliance": "VIE",
+    "player": "JoxXaum Warzone . #",
+    "warzone": 1301,
+    "kill_score": 1301,
     "group": "C",
     "rank": 7
-  },
-  {
-    "alliance": "XTRM",
-    "player": "Pyronl79",
-    "warzone": 1308,
-    "kill_score": 1308,
-    "group": "C",
-    "rank": 8
   }
 ]

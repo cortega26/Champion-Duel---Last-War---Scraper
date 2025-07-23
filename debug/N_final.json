@@ -1,26 +1,58 @@
 [
   {
-    "alliance": "A10W",
-    "player": "Foxium #",
-    "warzone": 1312,
-    "kill_score": 42,
+    "alliance": "XINN",
+    "player": "ThanhSport",
+    "warzone": 1311,
+    "kill_score": 788,
     "group": "N",
     "rank": 1
   },
   {
-    "alliance": "RISe",
-    "player": "Warzone ejgtsaurus #",
-    "warzone": 1316,
-    "kill_score": 1316,
+    "alliance": "A10U",
+    "player": "Foxlum Warzone ‘oxium #",
+    "warzone": 1312,
+    "kill_score": 42,
     "group": "N",
     "rank": 2
   },
   {
-    "alliance": "TQAK",
-    "player": "B6",
-    "warzone": 1301,
-    "kill_score": 1301,
+    "alliance": "RlSe",
+    "player": "gtsaurus",
+    "warzone": 1316,
+    "kill_score": 1316,
     "group": "N",
     "rank": 3
+  },
+  {
+    "alliance": "HORA",
+    "player": "Warzone al #",
+    "warzone": 1312,
+    "kill_score": 1312,
+    "group": "N",
+    "rank": 4
+  },
+  {
+    "alliance": "SOFJBlossom [TWEG",
+    "player": "Advance musortracacnne #",
+    "warzone": 1307,
+    "kill_score": 1307,
+    "group": "N",
+    "rank": 5
+  },
+  {
+    "alliance": "SOF",
+    "player": "BI Warzone ossomHana #",
+    "warzone": 1306,
+    "kill_score": 1306,
+    "group": "N",
+    "rank": 6
+  },
+  {
+    "alliance": "vic",
+    "player": "Warzone wa #",
+    "warzone": 1309,
+    "kill_score": 1309,
+    "group": "N",
+    "rank": 7
   }
 ]

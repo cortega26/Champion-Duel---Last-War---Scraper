@@ -1,9 +1,9 @@
 [
   {
-    "alliance": "PNDa",
-    "player": "P5¢E [NHI]Bee [aREs]PugRa Advance #",
+    "alliance": "NHI",
+    "player": "Bee #",
     "warzone": 1307,
-    "kill_score": 95896,
+    "kill_score": 1307,
     "group": "H",
     "rank": 1
   },
@@ -14,13 +14,5 @@
     "kill_score": 1304,
     "group": "H",
     "rank": 2
-  },
-  {
-    "alliance": "VVip)Mi Warzone p",
-    "player": "Min #",
-    "warzone": 1307,
-    "kill_score": 1307,
-    "group": "H",
-    "rank": 3
   }
 ]

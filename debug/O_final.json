@@ -1,26 +1,34 @@
 [
   {
-    "alliance": "KORa",
-    "player": "ingtern",
-    "warzone": 1312,
-    "kill_score": 1312,
+    "alliance": "vic",
+    "player": "41=- Warzone wanes #",
+    "warzone": 1309,
+    "kill_score": 1309,
     "group": "O",
     "rank": 1
   },
   {
-    "alliance": "BLwz",
-    "player": "4 #",
-    "warzone": 1304,
-    "kill_score": 1304,
+    "alliance": "GLOW",
+    "player": "Glow [XINN]Fresh Warzone Warzone [7ARQ]I XINN]Fres! #",
+    "warzone": 1313,
+    "kill_score": 23,
     "group": "O",
     "rank": 2
   },
   {
-    "alliance": "MAsh",
-    "player": "Officer",
-    "warzone": 1315,
-    "kill_score": 1315,
+    "alliance": "XINN",
+    "player": "Fresh",
+    "warzone": 1311,
+    "kill_score": 1311,
     "group": "O",
     "rank": 3
+  },
+  {
+    "alliance": "DFTL",
+    "player": "Hagao jagao #",
+    "warzone": 1301,
+    "kill_score": 1301,
+    "group": "O",
+    "rank": 4
   }
 ]

@@ -1,66 +1,10 @@
 [
   {
-    "alliance": "KORa",
-    "player": "LAVS al #",
-    "warzone": 1312,
-    "kill_score": 1312,
-    "group": "F",
-    "rank": 1
-  },
-  {
-    "alliance": "> es } Warzone [FIND",
-    "player": "Master #",
-    "warzone": 1303,
-    "kill_score": 1303,
-    "group": "F",
-    "rank": 2
-  },
-  {
-    "alliance": "Twes",
-    "player": "Tal",
-    "warzone": 1307,
-    "kill_score": 1307,
-    "group": "F",
-    "rank": 3
-  },
-  {
-    "alliance": "ENDL",
-    "player": "[B3ar]Manic",
-    "warzone": 1305,
-    "kill_score": 33,
-    "group": "F",
-    "rank": 4
-  },
-  {
-    "alliance": "nsz",
-    "player": "Warzone imei #",
-    "warzone": 1303,
-    "kill_score": 70,
-    "group": "F",
-    "rank": 5
-  },
-  {
     "alliance": "B3ar",
-    "player": "TotalG Warzone arjTotalGamer #",
+    "player": "TotalGamer",
     "warzone": 1308,
     "kill_score": 1308,
     "group": "F",
-    "rank": 6
-  },
-  {
-    "alliance": "Smrf",
-    "player": "Smurf #",
-    "warzone": 1313,
-    "kill_score": 1313,
-    "group": "F",
-    "rank": 7
-  },
-  {
-    "alliance": "HxC",
-    "player": "AnnoyingCat",
-    "warzone": 1309,
-    "kill_score": 1309,
-    "group": "F",
-    "rank": 8
+    "rank": 1
   }
 ]

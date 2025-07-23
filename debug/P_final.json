@@ -1,33 +1,33 @@
 [
   {
+    "alliance": "PNDaljippeoo2 [BFUN",
+    "player": "hUngso Warzone Warzone jaljippe #",
+    "warzone": 1314,
+    "kill_score": 1303,
+    "group": "P",
+    "rank": 1
+  },
+  {
+    "alliance": "RVX",
+    "player": "Bubu wbUNTSO #",
+    "warzone": 1305,
+    "kill_score": 1305,
+    "group": "P",
+    "rank": 2
+  },
+  {
     "alliance": "V10",
     "player": "Fighter",
     "warzone": 6269,
     "kill_score": 6269,
     "group": "P",
-    "rank": 1
-  },
-  {
-    "alliance": "A1OW",
-    "player": "Whiskey #",
-    "warzone": 1312,
-    "kill_score": 50,
-    "group": "P",
-    "rank": 2
-  },
-  {
-    "alliance": "NHI",
-    "player": "Tiger",
-    "warzone": 1307,
-    "kill_score": 1307,
-    "group": "P",
     "rank": 3
   },
   {
-    "alliance": "B3ar",
-    "player": "WickaaG",
-    "warzone": 1308,
-    "kill_score": 1308,
+    "alliance": "A10W",
+    "player": "Whiskey #",
+    "warzone": 1305,
+    "kill_score": 102,
     "group": "P",
     "rank": 4
   }
